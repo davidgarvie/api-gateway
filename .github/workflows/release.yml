@@ -22,5 +22,5 @@ jobs:
         run: npm run lint
       - name: Test
         run: npm run test
-      # - name: Release
-      #   run: npm run semantic-release
+      - name: Release
+        run: npm run semantic-release
