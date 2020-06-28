@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/davidgarvie/api-gateway/compare/v1.0.0...v1.1.0) (2020-06-28)
+
+
+### Features
+
+* **server:** send 404 response code for routes without any handlers ([3ec08d6](https://github.com/davidgarvie/api-gateway/commit/3ec08d694797934ac5428f1ac158d9c96e75bb84))
+
+
+### Performance Improvements
+
+* **docker:** remove duplicate docker install and set NODE_ENV env variable ([5a1bd0d](https://github.com/davidgarvie/api-gateway/commit/5a1bd0dfd5e4d321205c5144c2a14f55ada6471e))
+
 # 1.0.0 (2020-06-28)
 
 
