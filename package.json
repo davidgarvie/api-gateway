@@ -1,0 +1,41 @@
+{
+  "name": "@davidgarvie/api-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "api-gateway"
+  ],
+  "author": "David Garvie",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgarvie/api-gateway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidgarvie/api-gateway/issues"
+  },
+  "homepage": "https://github.com/davidgarvie/api-gateway#readme",
+  "description": "",
+  "devDependencies": {
+    "@davidgarvie/eslint-config": "^1.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
